@@ -1,0 +1,496 @@
+Ruby adalah yang dinamis, Reflective, object-oriented, umum bahasa pemrograman. Ia telah dirancang dan dikembangkan pada pertengahan tahun 1990 oleh Yukihiro "Matz" Matsumoto di Jepang.
+
+Ruby merupakan perwujudan sintaks diilhami oleh Perl dengan Smalltalk-seperti fitur dan juga dipengaruhi oleh Eiffel dan Lisp.9 ] Ia mendukung berbagai paradigma pemrograman, termasuk fungsional, object oriented, dan penting. Ia juga mempunyai jenis yang dinamis dan sistem manajemen otomatis memori. Oleh karena itu, ia serupa dalam berbagai tingkatan, Smalltalk, Python, Perl, Lisp, Dylan, dan CLU.
+
+Standar dan sudah pensiun[10 ] 1.8.7 implementasi tersebut ditulis dalam C, sebagai satu-pass menafsirkan bahasa. Mulai dengan 1,9 cabang, dan melanjutkan dengan cabang 2.0 saat ini, YARV telah digunakan, dan akhirnya akan menggantikan yang lebih lambat Ruby MRI. Bahasa spesifikasi untuk Ruby telah dikembangkan oleh standar yang terbuka Promosi Pusat Information-Technology Badan Promosi ( badan pemerintah Jepang) untuk pengiriman ke Jepang Standar Industri Komite dan kemudian ke Organisasi Internasional untuk Standarisasi. Ia diterima sebagai standar industri Jepang (JIS X 3017) dalam 201111 ] dan sebuah standar internasional (ISO/IEC 30170) pada tahun 2012.12 ] Sebagai dari 2010, ada beberapa lengkap atau alternatif mendatang implementasi Yaspis merah, termasuk YARV, JRuby, Rubinius, IronRuby, MacRuby (dan rekan sejawatnya, RubyMotion iOS), mruby, HotRuby, krisolit dan Opal. Setiap mengambil pendekatan yang berbeda, dengan IronRuby, JRuby, MacRuby dan Rubinius memberikan cukup-dalam-waktu kompilasi dan MacRuby dan mruby juga menyediakan di depan-waktu kompilasi. 
+
+Sejarah
+
+Ruby diperanakkan pada 24 Februari 1993 oleh Yukihiro Matsumoto yang ingin membuat sebuah bahasa baru yang seimbang dengan pemrograman fungsional pemrograman mutlak.13 ] Matsumoto telah berkata, "Aku ingin bahasa skrip yang lebih kuat daripada Perl, dan lebih object-oriented dari Python. Itulah sebabnya aku memutuskan untuk desain sendiri saya bahasa. "14 ]
+
+Di Google Tech Berbicara di tahun 2008 Matsumoto lebih lanjut menyatakan, "Saya berharap untuk melihat Ruby membantu setiap programmer di dunia untuk menjadi produktif, dan untuk menikmati pemrograman, dan untuk bersukacita. Itu adalah tujuan utama dari bahasa Ruby. "15 ]
+Pilihan nama itu "Ruby"
+
+Nama "Ruby" berasal dari selama sesi online chat antara Matsumoto dan Keiju Ishitsuka pada 24 Februari 1993, sebelum daftar telah ditulis untuk bahasa.16 ] Pada awalnya dua nama telah diusulkan: "Karang" dan "Ruby". Matsumoto memilih yang kedua dalam e-mail untuk Ishitsuka.17 ] Matsumoto kemudiannya diperhatikan faktor dalam memilih nama "Ruby" - itu adalah yang birthstone dari salah seorang rekan sejawatnya.18 ]19 ]
+Publikasi Pertama
+
+Siaran umum pertama dari Ruby 0,95 diumumkan pada dalam negeri Jepang newsgroups pada 21 Desember 1995.20 ]21 ] Kemudian tiga beberapa versi Ruby telah dibebaskan pada dua hari.16 ] rilis bertepatan dengan peluncuran Jepang-bahasa ruby-daftar mailing list, yang mana merupakan yang pertama milis untuk bahasa yang baru.
+
+Sudah ada pada tahap ini pembangunan telah banyak fitur akrab di nanti rilis Yaspis merah, termasuk object-oriented design, kelas dengan milik pusaka, mixins, mendapatkan iterator, penutupan, pengecualian penanganan dan pengumpulan sampah.22 ] 
+
+Ruby 1.0
+
+Ruby versi mencapai 1,0 pada 25 Desember 1996.16 ]
+
+Menyusul pelepasan Ruby 1,3 pada tahun 1999 yang pertama bahasa Inggris ruby milis-talk mulai,14 ] yang mengisyaratkan bahwa perhatian yang semakin berkembang dalam bahasa di luar Jepang. Pada Bulan September 2000, Inggeris yang pertama buku bahasa pemrograman Ruby dicetak, yang kemudiannya bebas dirilis ke masyarakat umum, selanjutnya perluasan adopsi Ruby di antara Bahasa Inggris.
+[icon] 	Bagian ini memerlukan perluasan dengan: sejarah dan fitur baru untuk versi pra-1.9. (Mei tahun 2012 )
+Ruby 1,2
+
+Ruby 1,2 awalnya dirilis pada bulan Desember 1998.
+Ruby 1.4
+
+Ruby 1,4 awalnya dirilis pada bulan Agustus tahun 1999.
+1,6 Ruby
+
+Ruby 1,6 awalnya dirilis pada bulan September 2000.
+
+Ruby 1,8
+
+Ruby 1,8 awalnya dirilis pada bulan Agustus tahun 2003, stabil untuk waktu yang lama, dan adalah pensiunan Bulan Juni tahun 2013.10 ] meskipun usang, masih ada daftar berdasarkan. Ruby 1,8 tidak kompatibel dengan Ruby 1,9.
+Ruby pada Rel
+
+Sekitar tahun 2005, bunga di dalam bahasa Ruby melonjak bersamaan dengan Ruby pada rel kereta, yang populer kerangka kerja aplikasi web tertulis dalam Ruby. Rel sering diperhitungkan dengan membuat Ruby "terkenal" .23 ]
+Ruby 1.9
+
+Ruby 1,9 dikeluarkan pada bulan Desember 2007. Efektif dengan Ruby 1.9.3, yang dirilis 31 Oktober 2011,24 ] Ruby berpindah dari dual-berlisensi Ruby Lisensi dan GPL menjadi dual-berlisensi Ruby Lisensi dan dua-from clause BSD lisensi.25 ] Adopsi 1,9 telah melambat dengan perubahan dari 1,8 yang diperlukan banyak pihak ketiga populer permata akan dituliskan kembali.
+
+Ruby 1,9 memperkenalkan banyak perubahan besar dari seri 1.8.26 ] Contoh:
+
+    Blok variabel lokal (variabel yang lokal untuk blok tersebut di mana mereka menyatakan)
+    Sintaks lambda tambahan: f = - > (a,b) { menempatkan + b }
+    Per-string pengkodean karakter yang didukung
+    Soket baru API ( dukungan ipv6)
+    Keamanan require_relative impor
+
+2.0 Ruby
+
+Ruby 2.0 menambahkan beberapa fitur baru, termasuk:
+
+    Kata kunci metode argumen,
+    Metode baru, Modul#prepend, untuk memperluas kelas,
+    Injil yang baru untuk menciptakan sebuah array dari simbol,
+    API baru untuk pengambilan malas evaluasi Enumerables, dan
+    Konvensi baru menggunakan #to_h untuk mengubah benda Hashes. [27 ]
+
+Ruby 2.0 dimaksudkan untuk sepenuhnya kompatibel mundur dengan Ruby 1.9.3. Sebagai resmi dari 2.0.0 memiliki sertifikasi dari rilis pada 24 Februari 2013, hanya ada lima dikenal (kecil) incompatibilities. [28 ]
+
+Filosofi
+
+Matsumoto telah mengatakan bahwa Ruby dirancang untuk programmer produktivitas dan menyenangkan, mengikuti prinsip-prinsip good antarmuka pengguna desain. [29 ] Dia menekankan bahwa desain sistem kebutuhan untuk menekankan manusia, daripada komputer, kebutuhan: [30 ]
+
+    Orang seringkali, khususnya komputer insinyur, fokus pada mesin. Mereka berpikir, "Dengan melakukan hal ini, alat berat akan bekerja lebih cepat. Dengan melakukan hal ini, yang akan menjalankan mesin lebih efektif. Dengan melakukan hal ini, alat berat akan sesuatu sesuatu sesuatu." Mereka yang memusatkan perhatian pada mesin. Tetapi pada kenyataannya kita perlu memusatkan pada manusia, tentang bagaimana manusia care melakukan operasi atau pemrograman aplikasi komputer. Kita adalah tuan. Mereka adalah hamba.
+
+Ruby adalah mengatakan untuk mengikuti prinsip paling sedikit sepi (.OLEH KARENA ITU DIPERLUKAN ADANYA), yang berarti bahasa bertindak dengan cara yang untuk mengurangi kebingungan bagi pengguna yang berpengalaman. Matsumoto telah berkata: "tujuan utama desain adalah untuk membuat sebuah bahasa yang ia senang menggunakan, dengan meminimalkan programmer bekerja dan kemungkinan kebingungan. Ia telah mengatakan bahwa ia tidak menerapkan prinsip paling tidak mengejutkan untuk desain Ruby, [30 ] namun ungkapan telah datang untuk menjadi sangat erat berhubungan dengan bahasa pemrograman Ruby. Ungkapan ia sendiri telah menjadi sumber mengejutkan, sebagai novis pengguna mungkin bererti bahawa Ruby perilaku yang mencoba untuk cocok dengan perilaku akrab dari bahasa lain. Dalam bulan Mei 2005 diskusi pada newsgroup comp.lang.yaspis merah, Matsumoto cuba untuk jarak Ruby dari.OLEH KARENA ITU DIPERLUKAN ADANYA, menjelaskan bahwa karena rancangan pilihan akan mengejutkan kepada seseorang, ia menggunakan standar pribadi untuk mengevaluasi mengejutkan. Jika pribadi standard tetap konsisten, akan ada beberapa kejutan untuk mereka yang akrab dengan standar.31 ]
+
+Matsumoto didefinisikan tersebut dengan cara seperti ini dalam sebuah wawancara: [30 ]
+
+    Setiap orang mempunyai seorang individu latar belakang. Seseorang mungkin datang dari Python, orang lain mungkin datang dari Perl, dan mereka mungkin terkejut oleh berbagai aspek dari bahasa. Kemudian mereka datang kepada saya dan berkata, 'Aku terkejut dengan fitur ini dari bahasa, maka Ruby melanggar prinsip paling tidak mengejutkan." Tunggu. Tunggu. Prinsip paling tidak mengejutkan adalah tidak hanya untuk anda. Prinsip-prinsip berarti kurangnya kejutan-kejutan paling tidak saya. Dan itu berarti prinsip paling tidak mengejutkan setelah anda mempelajari Ruby sangat baik. Misalnya, saya adalah seorang C++ programmer sebelum saya mulai merancang Ruby. AKU terprogram pada C++ khusus untuk dua atau tiga tahun. Dan setelah dua tahun C++ pemrograman, ia masih kejutan aku.
+
+Fitur
+
+    Dengan seksama object-oriented dengan milik pusaka, mixins dan metaclasses[ 32]
+    Pengetikan dan Dinamis pengetikan bebek
+    Segala sesuatu adalah suatu ekspresi (bahkan pernyataan) dan segala sesuatu adalah dilaksanakan imperatively (bahkan kalimat syahadah)
+    Jelas dan fleksibel sintaks[ 33] yang meminimalkan sintaktis konstituen kebisingan dan melayani sebagai landasan untuk domain-bahasa tertentu[ 34]
+    Refleksi dan perubahan dinamis dari benda untuk memfasilitasi metaprogramming[35 ]
+    Lexical klosur, mendapatkan iterator dan pembangkit tenaga listrik, yang unik dengan sintaks blok[ 36]
+    Injil notasi untuk array, hashes, ekspresi reguler dan simbol
+    Kode Mengawal dalam string (interpolation)
+    Argumen Default
+    Empat tingkat variabel lingkup (global, kelas, contoh, dan lokal) ditandakan oleh sigils atau kurangnya itu
+    Pengumpulan sampah
+    Pertama-class continuations
+    Cara pemaksaan boolean ketat peraturan (segala sesuatu adalah benar kecuali palsu danboleh dianggap nol)
+    Kekecualian
+    Operator beban
+    Dukungan built-in untuk bilangan rasional, kompleks bilangan dan sewenang-presisi aritmetika
+    Penugasan perilaku Khusus (melalui method_missing dan const_missing)
+    Penduduk Asli benang serat dan koperasi (serat 1.9/YARV fitur)
+    Dukungan awal untuk Unicode dan beberapa pengkodean karakter (tidak ada dukungan ICU) [37 ]
+    Penduduk Asli plug-in API di C
+    Shell interaktif Ruby ( REPL)
+    Manajemen paket terpusat melalui RubyGems
+    Diterapkan pada semua platform utama
+    Standar perpustakaan Besar
+
+Soal Semantik
+
+Ruby adalah object-oriented: setiap nilai adalah sebuah obyek, termasuk kelas dan contoh dari jenis yang banyak bahasa lain menetapkan sebagai primitives (seperti Pengkalian, booleans, dan "null" ). Variabel selalu tahan referensi ke obyek. Setiap fungsi adalah suatu metode -metode dan selalu disebut pada sebuah obyek. Metode didefinisikan di level atas ruang lingkup menjadi anggota kelas obyek. Sejak kelas ini adalah nenek moyang dari setiap kelas lain, seperti metode yang bisa disebut pada benda apa pun. Mereka juga terlihat di dalam semua kegiatan usaha kami meliputi kegiatan penyelidikan, secara efektif melayani sebagai "global" prosedur. Ruby mendukung milik pusaka dengan dinamis penugasan, mixins singleton dan metode (milik, dan ditetapkan untuk, satu contoh dan bukannya ditentukan pada kelas). Walaupun Ruby tidak mendukung beberapa milik pusaka, kelas dapat mengimpor modul sebagai mixins.
+
+Ruby telah digambarkan sebagai sebuah multi-paradigma bahasa pemrograman: ia memungkinkan pemrograman prosedural (menentukan fungsi/variabel di luar kelas membuat mereka menjadi bagian dari akar, 'diri' Obyek), dengan objek orientasi (segala sesuatu adalah sebuah obyek) atau fungsi programming (ia telah fungsi anonim, pemecatan pekerja, dan continuations; pernyataan semua mempunyai nilai, dan fungsi kembali evaluasi terakhir). Ia memiliki dukungan untuk melakukan introspeksi diri, refleksi dan metaprogramming, serta dukungan bagi penterjemah-berdasarkan[ 38] benang. Fitur Ruby dinamis mengetik, dan mendukung revolutionary Parametric capabilities of polymorphism.
+
+Menurut Ruby FAQ, [ 39] "Jika anda seperti Perl, anda akan seperti Ruby dan di rumah dengan sintaks. Jika anda seperti Smalltalk, anda akan seperti Ruby dan di rumah dengan urusan semantik semata. Jika anda seperti Python, anda mungkin tidak akan mati oleh perubahan besar dalam rancangan filosofi antara Python dan Ruby/Perl."
+
+Sintaks
+
+Sintaks Ruby adalah luas yang serupa dengan Perl dan Python. Definisi Kelas dan metode ini mensinyalir dengan kata kunci. Kontras dengan Perl, variabel tidak secara wajib diawali dengan sigil. Apabila digunakan, sigil perubahan yang soal semantik dari cakupan dari variabel tersebut. Salah satu perbedaan dari C dan Perl adalah bahwa kata kunci yang biasanya digunakan untuk mendefinisikan logis blok kode, tanpa alat penyangga (iaitu, pasangan { dan } ). Untuk tujuan praktis tidak ada perbedaan antara ekspresi dan pernyataan. [40 ] pindah Baris ini adalah signifikan dan diambil sebagai akhir dari suatu pernyataan; sebuah titik koma mungkin sama rata digunakan. Tidak seperti ular sanca, indentasi tidak signifikan.
+
+Salah satu perbedaan-Ruby dibandingkan dengan Python dan Perl adalah bahwa Ruby menjaga semua contoh variabel swasta sepenuhnya kepada kelas dan menghadapkan mereka hanya melalui metode pengakses (attr_writer, attr_reader, dll. ). Tidak seperti "pengambil" dan "metode penyetel" dari bahasa lain seperti C++ atau Jawa, metode pengakses di Ruby dapat dibuat dengan satu baris kode melalui metaprogramming; namun, metode pengakses juga dapat dibuat dalam cara tradisional dari C++ dan Jawa. Sebagai doa dari metode ini tidak memerlukan penggunaan tanda kurung, ia adalah sepele untuk mengubah sebuah contoh variabel ke fungsi lengkap, tanpa memodifikasi satu baris kode atau perlu melakukan apa pun fungsionalitas merefraktorisasi mencapai serupa untuk C# dan VB.NET properti anggota.
+
+Python, properti Descriptor serupa, tetapi datang dengan tradeoff dalam proses pembangunan. Jika salah satu bermula dengan Python dengan menggunakan sebuah tontonan contoh variabel, dan kemudian mengubah implementasi untuk menggunakan contoh variabel pribadi terkena melalui properti descriptor, kode internal untuk kelas mungkin perlu harus disesuaikan dengan menggunakan variabel swasta dan bukannya properti publik. Ruby desain memaksa semua contoh variabel pribadi, tetapi juga menyediakan cara yang sederhana untuk menyatakan dan mendapatkan metode. Hal ini sejalan dengan gagasan bahwa dalam Yaspis merah, salah satu tidak pernah secara langsung mengakses internal anggota dari sebuah class dari luar; sebaliknya, salah satu mengirimkan pesan ke kelas dan menerima tanggapan.
+
+Lihat Contoh di bawah untuk bagian kode contoh menunjukkan Ruby sintaks. 
+
+Penyimpangan dari perilaku di tempat lain
+
+Beberapa fitur yang berbeda khususnya dari bahasa seperti C atau Perl:
+
+    Bahasa sintaks adalah sensitif terhadap pengenal kapitalisasi, dalam semua kasus memperlakukan huruf besar variabel sebagai constants. Nama kelas dan modul adalah constants dan merujuk ke obyek berasal dari Kelas dan Modul.
+    Yang sigils $ dan @ tidak menunjukkan tipe data variabel sebagai dalam Perl, tetapi sebaliknya berfungsi sebagai ruang lingkup resolusi operator.
+    Floating point literals harus memiliki angka kedua sisi titik desimal: tidak .5 atau 2. adalah sah literals floating point, tetapi 0.5 dan 2.0.
+
+    (Dalam Yaspis merah, integer literals adalah obyek yang dapat memiliki metode berlaku untuk mereka, sehingga memerlukan digit setelah sebuah titik desimal membantu untuk menjelaskan apakah 1.e5 harus diuraikan analogously untuk 1.to_f atau seperti yang pesat-format mengambang injil 1.0e5. Alasan untuk memerlukan sebuah angka sebelum titik desimal kurang jelas, mungkin berkaitan dengan baik untuk metode doa lagi, atau mungkin ke .. dan ... operator, misalnya dalam fragmen 0,1 ... 3.) 
+
+    Boolean non-boolean datatypes diizinkan dalam konteks boolean (tidak seperti di misalnya Smalltalk dan Jawa), tetapi mereka untuk boolean nilai pemetaan berbeda dengan peningkatan pesat dari beberapa bahasa lain: 0 dan "kosong" (misalnya daftar kosong, string atau array asosiatif) semua mengevaluasi ke benar, maka mengubah maksud dari beberapa umum berkaitan dengan zaman modern atau serupa seperti Lisp bahasa, Perl dan Python.
+
+    Akibat dari ini adalah peraturan yang Ruby metode oleh konvensi - misalnya, -ekspresi reguler pencarian - kembali bilangan, string, daftar, atau non-nilai palsu atas keberhasilan, tetapi boleh dianggap nol pada kegagalan. 
+
+    Versi sebelum mencapai 1,9 menggunakan Pengkalian biasa untuk mewakili satu karakter, banyak seperti C.ini dapat menyebabkan kejutan ketika pengiris string: "abc" [ 0] menghasilkan 97 ( ASCII kode karakter pertama dalam string); untuk mendapatkan "a" menggunakan "abc" [ 0,1] (substring dari panjang 1) atau "abc" [ 0] .tawarikh.
+    Notasi tersebut hingga ekspresi pernyataan tidak menjalankan pernyataan tersebut jika ekspresi sudah benar. (Perilaku seperti Perl, tetapi tidak seperti bahasa lain' setara dengan pernyataan, misalnya melakukan { pernyataan } sementara ( ! (ekspresi); di C/C++/... ). Pernyataan ini adalah karena sampai ekspresi adalah sebenarnya sintaktis konstituen gula sampai ekspresi; pernyataan; akhir, setara dengan yang di C/C++ sedangkan ( ! (ekspresi)) { pernyataan; }, seperti pernyataan jika ekspresi adalah setara dengan jika (ekspresi) { pernyataan; }. Namun, notasi tersebut mulai pernyataan sampai akhir ekspresi dalam Ruby akan sebenarnya menjalankan pernyataan sekali bahkan jika ekspresi sudah benar, bertindak serupa dengan melakukan-sementara dari bahasa lain. (Matsumoto telah menyatakan keinginan untuk melepaskan khusus pernyataan perilaku mulai akhir hingga ekspresi, [ 41] tetapi masih tetap ada sebagai dari Ruby 2.0.)
+    Karena constants merupakan referensi ke obyek, mengubah apa yang terus menerus merujuk kepada menghasilkan sebuah peringatan, tetapi memodifikasi obyek itu sendiri tidak. Misalnya, Salam << " dunia." jika Salam == "Hello" tidak membuat kesalahan atau peringatan. Ini adalah sama dengan variabel akhir di Jawa atau const pointer ke non-const obyek dalam C++, tetapi Ruby menyediakan fungsionalitas untuk "pembekuan" sebuah benda, tidak seperti Jawa.
+
+Beberapa fitur yang berbeda khususnya dari bahasa lain:
+
+    Operator yang biasa untuk bersyarat ekspresi, dan dan atau, tidak mengikuti aturan normal keutamaan: dan tidak mengikat lebih ketat dari atau. Ruby juga telah ekspresi operator || dan && yang bekerja seperti yang diharapkan.
+
+DAFTAR dari apa yang disebut sebagai gotchas mungkin dapat ditemukan dalam buku dbus Fulton Ruby Jalan, 2nd ed (ISBN 0-672 -32884-4), Bagian 1,5. Daftar yang serupa dalam edisi 1 penjagaan untuk versi lama dari Ruby (versi 1.6 ), beberapa masalah yang telah diperbaiki sementara itu. Misalnya, coba lagi sekarang bekerja dengan sementara, sehingga, dan untuk, serta dengan mendapatkan iterator.
+
+Interaksi
+Lihat juga: Ruby Shell interaktif
+
+Ruby distribusi resmi juga mencakup irb, interaktif command-line penterjemah yang dapat digunakan untuk kode uji dengan cepat. Kode berikut fragmen mewakili sebuah contoh menggunakan sesi irb:
+
+$ Irb
+irb(utama) :001:0> menempatkan "Hello, Dunia" 
+Halo, Dunia
+ => boleh dianggap nol
+irb(utama) :002:0> 1+2 
+=> 3 
+
+Contoh
+
+Contoh berikut dapat dijalankan dalam Ruby shell interaktif seperti Ruby Shell, atau disimpan dalam file dan menjalankan dari baris perintah dengan mengetikkan ruby <nama file>.
+
+Classic Hello world contoh:
+
+Menempatkan "Hello World!"  
+
+Beberapa kode Ruby dasar:
+
+# Segala Sesuatu, termasuk injil, adalah sebuah obyek, maka karya ini: 
+-199.abs # => 199
+ "es adalah nice" .panjang # => 11
+ "ruby adalah dingin. " .index( "u") # => 1
+ "Nice Hari Ini? " .downcase.split( "" ) .uniq.mengurutkan.bergabung dengan # => " ' ?acdeinsty" 
+
+Konversi:
+
+Menempatkan "Berikanlah kepadaku sejumlah" 
+nomor = mendapat.chomp 
+menempatkan nomor.to_i 
+output_number = jumlah.to_i + 1
+ menempatkan output_number.to_s + ' nomor yang lebih besar."  
+
+Tali
+
+Ada berbagai cara untuk menentukan string dalam Ruby.
+
+Berikut adalah sama dan penetapan dukungan interpolation variabel:
+
+Sebuah = " \nini adalah double-dikutip string\n" 
+yang = %P{ \nini adalah double-dikutip string\n} 
+a = % { \nini adalah double-dikutip string\n} 
+a = % / \nini adalah double-dikutip string\n/
+a = << -blok
+
+ini adalah double-dikutip string
+memblokir
+
+Penetapan berikut adalah sama dan menghasilkan bahan baku string:
+
+Sebuah = 'Ini adalah suatu single-' 
+yang dikutip string = %p{Ini adalah sebuah-dikutip string} 
+
+Koleksi
+
+Membangun dan menggunakan sebuah array:
+
+Sebuah = [1, 'hi', 3,14, 1, 2, 4, 5 ]]
+
+[ 2] # => 3,14
+a. [ ] (2 ) # => 3,14
+a.reverse # => [ [4, 5], 2, 1, 3,14, 'hi', 1 ]
+a.ratakan adonan.uniq # => [1, 'hi', 3,14, 2, 4, 5 ] 
+
+Membangun dan menggunakan array asosiatif (dalam Yaspis merah, yang disebut dengan hash):
+
+Hash = Hash.baru # setara dengan hash = {} 
+hash = { :air => 'basah', :api => 'panas' } # membuat baris sebelumnya tambahan seperti yang kita sekarang
+ # untuk menetapkan hash yang baru, terpisah obyek hash
+ menempatkan hash[ :api] # mencetak "panas" 
+
+hash.each_pair melakukan |kunci, nilai| # atau: hash.setiap melakukan |kunci, nilai| 
+menempatkan " # {kunci} adalah # {nilai}" 
+akhir
+ # kembali { :air= > "basah", :api= > "panas"} dan cetakan: 
+# air basah
+ # api panas
+
+hash.menghapus :air # menghapus pasangan :air => 'basah' dan kembali "basah" 
+hash.delete_if { |kunci,nilai nilai| == 'hot'} # menghapus pasangan :api => 'panas' dan kembali {}  
+
+Blok dan mendapatkan iterator
+
+Dua syntaxes untuk menciptakan sebuah blok kode:
+
+{ Menempatkan "Hello, Dunia!" } # catatan alat penyangga
+ # atau: 
+jangan
+ menempatkan "Hello, Dunia!" 
+akhir 
+
+Blok kode YANG dapat dilewatkan ke sebuah metode opsional blok sebagai sebuah argumen. Banyak built-in seperti metode argumen:
+
+File.buka( 'file.txt', 'w') melakukan |file| # 'w' menunjukkan "menulis mode" 
+file.menempatkan 'menulis beberapa teks." 
+# akhir file secara otomatis ditutup di sini
+
+ File.readlines( 'file.txt' ) .setiap melakukan || 
+menempatkan garis
+ akhir baris
+ # => menulis beberapa teks. 
+
+Parameter-melewati sebuah blok menjadi penutupan:
+
+# Pada sebuah object contoh variabel (ditandai dengan ' @ ' ), mengingat memblokir. 
+lelaki anda menyaksikan pertempuran ingat( &a_block) 
+@blok = a_block
+ akhir
+
+ # memanggil metode sebelumnya, yang memberikan satu blok yang mengambil nama. 
+ingat { |nama| menempatkan "Hello, # {name} ! "} 
+
+# Panggilan penutupan: 
+@blok.panggilan( "Jon") # => "Hello, Jon."  
+
+Menciptakan sebuah fungsi anonim:
+
+Proc { |arg| menempatkan arg} 
+proc.baru { |arg| menempatkan arg} 
+lambda { |arg| menempatkan arg} 
+- > (arg) {menempatkan arg} # diperkenalkan dalam Ruby 1,9 
+
+Kembali klosur dari satu metode.
+
+Lelaki anda menyaksikan pertempuran create_set_and_get(initial_value= 0) # catatan nilai default 0
+closure_value = initial_value
+ kembali proc.baru { |x| closure_value = x}, proc.new { closure_value }
+ akhir
+
+penyetel, pengambil = create_set_and_get # kembali dua nilai
+penyetel.panggilan(21 )
+pengambil.panggilan # => 21
+
+ # Anda juga dapat menggunakan parameter variabel yang mengikat bagi penutupan, 
+# jadi sebelumnya dapat ditulis semula sebagai: 
+
+lelaki anda menyaksikan pertempuran create_set_and_get(closure_value= 0) 
+kembali proc { |x| closure_value = x } , proc { closure_value }
+ akhir 
+
+High yield aliran kontrol program untuk satu blok yang disediakan di memanggil waktu:
+
+Lelaki anda menyaksikan pertempuran use_hello
+ menghasilkan "hello" 
+
+
+# akhir memanggil metode sebelumnya, melewati sebuah blok. 
+use_hello { |string| menempatkan string} # => "halo' 
+
+Iterating atas enumerations dan array menggunakan blok:
+
+Array = [1, 'hi', sebesar 3,14] 
+array.setiap { |item| menempatkan item }
+ # cetakan: 
+# 1
+ # 'hi' 
+# 3,14
+
+ array.each_index { |index| menempatkan " # {index}: # {array[index] }" }
+ # cetakan: 
+# 0: 1
+ # 1: 'hi' 
+# 2: 3,14
+
+ berikut # menggunakan berbagai
+ (3.. 6) .setiap { |bilangan| menempatkan bilangan }
+ # cetakan: 
+# 3
+ # 4
+ # 5
+ # 6 
+
+Metode seperti menyuntikkan dapat menerima kedua parameter dan blok. Metode yang menyuntikkan iterates atas setiap anggota dari sebuah daftar, melakukan beberapa fungsi pada saat mempertahankan sebuah agregat. Ini adalah analog kefoldl fungsi di dalam bahasa pemrograman fungsional. Sebagai contoh:
+
+[ 1,3,5] .menyuntikkan(10 ) { |sum, elemen elemen| sum +} # => 19 
+
+Pada hari pertama, blok tersebut menerima 10 (hujah untuk menyuntikkan) sebagai uang, dan 1 (elemen pertama dari array) sebagai elemen. Ini kembali 11, yang kemudian menjadi uang pada berikutnya. Ditambahkan ke 3 untuk mendapatkan 14, yang kemudian ditambahkan ke 5 pada ketiga, akhirnya kembali ke 19.
+
+Menggunakan sebuah telah memasukkannya dalam perhitungannya dan blok persegi ke angka 1 sampai 10 (menggunakan berbagai):
+
+(1.. 10) .mengumpulkan { |x| x * x} # => [1, 4, 9, 16, 25, 36, 49, 64, 81, 100 ] 
+
+Atau memanggil metode pada setiap item (peta adalah sinonim untuk mengumpulkan):
+
+(1.. 5) .peta( & :to_f) # => [1,0, 2.0, 3.0, 4.0, 5,0 ] 
+
+Kelas
+
+Kode berikut mendefinisikan kelas yang bernama Orang. Selain untuk menginisialisasi, biasanya konstruktor untuk membuat obyek baru, ia memiliki dua metode: satu untuk mengganti < => perbandingan operator (jadi Array#mengurutkan dapat mengurutkan dengan usia) dan yang lain untuk mengganti metode to_s (jadi Kernel#menempatkan dapat format output-). Di sini, attr_reader adalah sebuah contoh dari metaprogramming di Ruby: attr_accessor mendefinisikan metode pengambil dan penyetel dari contoh variabel, tetapi hanya attr_reader metode pengambil. Yang terakhir dievaluasi pernyataan dalam metode adalah kembali nilai, yang memungkinkan pengabaian kembali pernyataan yang jelas.
+
+Kelas Orang
+attr_reader :name, :usia 
+lelaki anda menyaksikan pertempuran inisialisasi(nama, umur) 
+@nama, @age = nama, umur
+
+ lelaki anda menyaksikan pertempuran akhir < => (orang) # perbandingan operator untuk pengurutan
+usia < => orang
+
+ lelaki anda menyaksikan pertempuran akhir zaman to_s
+ " # {name} ( # {usia} )" 
+akhir
+ akhir
+
+grup = [
+Orang.baru( "Bob", 33),
+Orang.baru( "Chris", 16 ),
+Orang.baru( "Asy", 23 )
+ ]
+
+ menempatkan grup.mengurutkan.mundur  
+
+Kode sebelumnya mencetak tiga nama dalam urutan terbalik usia:
+
+Bob 33)
+Asy (23 )
+Chris (16 tahun)
+
+Orang yang terus menerus dan adalah satu rujukan kepada kelas obyek.
+Membuka kelas
+
+Dalam Yaspis merah, kelas tidak pernah ditutup: anda selalu dapat menambahkan metode untuk kelas yang sudah ada. Hal ini berlaku untuk semua kelas, termasuk standard, dibangun-di kelas. Yang perlu anda lakukan adalah membuka suatu definisi kelas untuk kelas yang sudah ada, baru dan isi, anda tetapkan akan ditambahkan ke ada isi. Sebuah contoh sederhana menambahkan metode baru untuk standar perpustakaan kelas Waktu:
+
+# Membuka kembali Ruby Waktu kelas
+ Waktu kelas
+ lelaki anda menyaksikan pertempuran kemarin
+ diri - 86400
+ akhir
+ akhir
+
+hari ini = Waktu.sekarang # => 2013-09-03 16:09:37 +0300
+kemarin = hari ini.kemarin # => 2013-09-02 16:09:37 +0300 
+
+Menambahkan metode kelas didefinisikan sebelumnya yang sering disebut sebagai kera-patching. Namun, jika dilakukan titah, amalan ini dapat menyebabkan tabrakan perilaku dan selanjutnya hasil yang tidak diharapkan, dan masalah dengan kode skalabilitas.
+Pengecualian
+
+Satu pengecualian adalah dibangkitkan dengan meningkatkan panggilan:
+
+Membangkitkan 
+
+Pesan opsional dapat ditambahkan ke pengecualian:
+
+Meningkatkan "Ini adalah pesan" 
+
+Anda dapat juga menetapkan tipe pengecualian anda ingin menaikkan:
+
+Meningkatkan ArgumentError, "Illegal argumen!"  
+
+Sebagai alternatif, anda dapat melewati sebuah pengecualian contoh untuk meningkatkan metode:
+
+Meningkatkan ArgumentError.baru( "argumen Ilegal. ")  
+
+Membangun terakhir ini berguna ketika anda perlu meningkatkan pengecualian kelas khusus yang dilengkapi dengan konstruktor yang berlangsung lebih dari satu argumen:
+
+Kelas ParseError < Pengecualian
+ lelaki anda menyaksikan pertempuran menginisialisasi input, saluran, pos
+ super "tidak dapat menguraikan ' # {input}" pada baris # {baris}, posisi # {pos}" 
+akhir
+ akhir
+
+ meningkatkan ParseError.baru( "foo", 3, 9 ) 
+
+Pengecualian ditangani oleh penyelamatan from clause. Seperti yang dapat menangkap klausa pengecualian yang mewarisi dari StandardError. Kontrol aliran Lain kata kunci yang dapat digunakan ketika menangani pengecualian yang lain dan memastikan:
+
+Mulai
+ # melakukan sesuatu
+ rescue
+ # menangani pengecualian
+ lain
+ # jangan ini jika tidak ada pengecualian telah dibangkitkan
+ memastikan
+ # jangan ini sama ada atau tidak pengecualian telah dibangkitkan
+ akhir 
+
+Ia adalah sebuah kesalahan biasa untuk mencoba menangkap semua pengecualian dengan mudah penyelamatan from clause. Untuk menangkap semua pengecualian satu harus menulis:
+
+Mulai
+ # melakukan sesuatu
+ melepaskan Pengecualian
+ # kekecualian kode di sini. 
+# Tidak menulis hanya "penyelamatan"; yang hanya menangkap StandardError, asal sub kelasnya dari Pengecualian. 
+akhir 
+
+Atau menangkap pengecualian tertentu:
+
+Mulai
+ # melakukan sesuatu
+ melepaskan RuntimeError
+ # menangani hanya RuntimeError dan subclasses
+ akhir 
+
+Ini mungkin juga untuk menetapkan bahwa pengecualian obyek dibuat tersedia untuk pengendali from clause:
+
+Mulai
+ # melakukan sesuatu
+ melepaskan RuntimeError => e
+ # handling, yang mungkin melibatkan e, seperti "menempatkan e.to_s" 
+akhir 
+
+Sebagai alternatif, yang paling baru adalah pengecualian disimpan dalam magic global $ !.
+
+Anda juga dapat menangkap beberapa pengecualian:
+
+Mulai
+ # melakukan sesuatu
+ melepaskan RuntimeError, Batas Waktu: :Kesalahan => e
+ # handling, yang mungkin melibatkan e
+ akhir 
+
+Metaprogramming
+
+Kode Ruby dapat secara programatis memodifikasi, di runtime, aspek strukturnya sendiri yang akan tetap di dalam bahasa lebih kaku, seperti metode dan definisi kelas. Metaprogramming semacam ini dapat digunakan untuk menulis lebih ringkas dan secara efektif memperluas kode bahasa.
+
+Misalnya, Ruby kode berikut menghasilkan metode baru untuk built-in kelas String, berdasarkan pada daftar warna. Metode yang membungkus isi string dengan sebuah tag HTML bergaya dengan masing warna.
+
+Warna hitam = {: " 000 ",
+merah: "f00 ",
+hijau: " 0f0 ",
+kuning: "ff0 ",
+biru: " 00f",
+magenta: "f0f",
+cyan: " 0ff",
+putih: "fff" }
+
+ class String
+WARNA.setiap melakukan |warna,kode| 
+define_method "in_# {warna}" dan
+ " <span style= \ "warna: ## {kode} \ " > # {diri} < /span>" 
+akhir
+ akhir
+ akhir 
+
+Metode yang dibuat kemudiannya dapat digunakan seperti ini:
+
+"Hello, Dunia! " .in_blue 
+=> " <span style= \ "warna: # 00f\ " >Halo, Dunia! < /span>"  
+
+Untuk menerapkan setara dengan dalam banyak bahasa lain, para programmer harus menulis setiap metode (in_black, in_red, in_green, dll. ) secara terpisah.
+
+Sebagian lain mungkin menggunakan untuk Ruby metaprogramming termasuk:
+
+    Mencegat dan memodifikasi metode panggilan
+    Menerapkan model baru milik pusaka
+    Membuat kelas secara dinamis dari parameter
+    Obyek otomatis serialization
+    Bantuan interaktif dan debugging
+
